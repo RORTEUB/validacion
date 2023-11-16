@@ -1,0 +1,35 @@
+body,
+ul {
+    margin: 0;
+    /*Barra de Navegacion superior */
+}
+
+.header {
+    background-color: #7888a6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    background-color: #527ED7;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: black;
+}
